@@ -7,13 +7,16 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"server": "json-server db.json -m ./node_modules/json-server-auth -p 3001"
+		"server": "json-server db.json -w -m ./node_modules/json-server-auth -p 3001"
 	},
 	"dependencies": {
+		"@reduxjs/toolkit": "^1.9.7",
 		"json-server-auth": "^2.1.0",
 		"next": "14.0.2",
 		"react": "^18",
-		"react-dom": "^18"
+		"react-dom": "^18",
+		"react-redux": "^8.1.3",
+		"redux": "^4.2.1"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.16",

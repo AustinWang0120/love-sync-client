@@ -1,17 +1,30 @@
 {
-  "users": [
-    {
-      "email": "yyaustin@bu.edu",
-      "password": "$2a$10$vhAEjzYem29m9KHHiMD2.eTnLKJOCdJndgKS6FQsHdduj0nf0stp.",
-      "username": "Noledge",
-      "id": 1
-    },
-    {
-      "email": "yyaustin@icloud.com",
-      "password": "$2a$10$zdtwH2YqSik.FkDUK8xzAO.ITKVNWQZJtd.uvmWZGtKMC3jlXF/ly",
-      "username": "Noledge",
-      "id": 2
-    }
-  ],
-  "posts": []
+	"users": [
+		{
+			"email": "yyaustin@bu.edu",
+			"username": "Noledge",
+			"password": "$2a$10$CBs.J6JMYZpp9/5Fd8Z5A.9fPCNyzrFlJI0PCIfC0s13eJyw8ZFWC",
+			"id": 1,
+			"coupleId": 1
+		},
+		{
+			"email": "liyuqing@bu.edu",
+			"password": "$2a$10$zdtwH2YqSik.FkDUK8xzAO.ITKVNWQZJtd.uvmWZGtKMC3jlXF/ly",
+			"username": "Angelica",
+			"id": 2,
+			"coupleId": 1
+		}
+	],
+	"shared": [
+		{
+			"coupleId": 1,
+			"posts": []
+		}
+	],
+	"messages": [
+		{
+			"coupleId": 1,
+			"chat": []
+		}
+	]
 }

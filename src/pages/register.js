@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
+import { useDispatch } from "react-redux";
+import { setUser } from "@/store/userSlice";
 import Link from "next/link";
 
 export default function Register() {
 	const router = useRouter();
+	const dispatch = useDispatch();
 
 	const [formData, setFormData] = useState({
 		username: "",
@@ -43,6 +46,8 @@ export default function Register() {
 				// 保存用户信息和token到localStorage
 				localStorage.setItem("token", data.accessToken);
 				localStorage.setItem("user", JSON.stringify(data.user));
+				// 保存用户信息到redux store
+				dispatch(setUser(data.user));
 				// 跳转
 				router.push("/user");
 			} else {
