@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "email": "yyaustin@bu.edu",
+      "password": "$2a$10$vhAEjzYem29m9KHHiMD2.eTnLKJOCdJndgKS6FQsHdduj0nf0stp.",
+      "username": "Noledge",
+      "id": 1
+    },
+    {
+      "email": "yyaustin@icloud.com",
+      "password": "$2a$10$zdtwH2YqSik.FkDUK8xzAO.ITKVNWQZJtd.uvmWZGtKMC3jlXF/ly",
+      "username": "Noledge",
+      "id": 2
+    }
+  ],
+  "posts": []
+}
